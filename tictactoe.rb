@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-def player(board, aplayer) #returns X or O depending on player and ensures correct input
+def player(board, aplayer) #returns players chosen place on the board and checks for correct input
 x = '0'
     while x.to_i < 1 || x.to_i > 9 do
         puts "X, MOVE" if aplayer == 1
